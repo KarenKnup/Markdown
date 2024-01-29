@@ -6,9 +6,10 @@
 
 * ------- Texto usando sintaxe Markdown ---------
 
-# Head
-## Head 2
-### Head 3
+# Heading 
+## Heading 2
+### Heading 3
+###### Heading 6
 
 * --- Linhas horizontais ----
 ***
@@ -26,13 +27,19 @@ __grifado__
 
 Lista 1:
 * Apple
+  * subitem
 * Orange
 * Pear
 
 Lista 2:
 1. Apple
-2. Orange
-3. Pear
+   * subitem
+3. Orange
+4. Pear
+
+* ---- Imagem -----
+
+![Minha imagem](https://images.pling.com/img/00/00/62/69/92/1924952/satoru-gojo-4k1.jpeg)
 
 * ----- Link em texto ----
   
@@ -40,8 +47,28 @@ A [link](https://example.com)
 
 * ----- Editores populares de Markdown ------
   1. Texts - Notepad
-  2. WriteMonkey
-  3. Haroopad
-  4. Markpad
-  5. MarkdownPad2
+  3. WriteMonkey
+  4. Haroopad
+  5. Markpad
+  6. MarkdownPad2
 
+* ---- Código -----
+
+``` javascript
+      function myFunc(param){
+          console.log(param);
+      }
+```
+
+
+```java
+      function myFunc(param){
+          console.log(param);
+      }
+```
+
+```php
+      function myFunc(param){
+          console.log(param);
+      }
+```
