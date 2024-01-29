@@ -35,6 +35,13 @@ Lista 2:
 3. Pear
 
 * ----- Link em texto ----
+  
 A [link](https://example.com)
 
+* ----- Editores populares de Markdown ------
+  1. Texts - Notepad
+  2. WriteMonkey
+  3. Haroopad
+  4. Markpad
+  5. MarkdownPad2
 
